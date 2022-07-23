@@ -1,3 +1,5 @@
+// eslint-disable-next-line no-unused-vars
+const InvariantError = require('../../exceptions/InvariantError');
 const { NotePayloadSchema } = require('./schema');
 
 const NotesValidator = {
